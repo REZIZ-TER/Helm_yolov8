@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['Helm']
+
+roboflow:
+  workspace: natthakorn
+  project: helmet01-lihwg
+  version: 3
+  license: Public Domain
+  url: https://universe.roboflow.com/natthakorn/helmet01-lihwg/dataset/3
